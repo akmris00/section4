@@ -13,4 +13,5 @@ df2['Avg'] = df2[['TEST1', 'TEST2', 'TEST3', 'Final']].mean(axis=1)
 df2['Sum'] = df2[['TEST1', 'TEST2', 'TEST3', 'Final']].sum(axis=1)
 print(df2)
 
+#df2.to_csv('c:/Atom/section4/result_s1.csv')
 df2.to_csv('c:/Atom/section4/result_s1.csv', index=False)
